@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Instruction Manual</title>
+</head>
+
+<body>
+    <div class="content">
+        <nav class="nav">
+            <li class="nav__item active"><a href="#introduction">Introduction</a></li>
+            <li class="nav__item"><a href="#workspace">Workspace</a></li>
+            <li class="nav__item"><a href="#folders">Files and Folders</a></li>
+            <li class="nav__item"><a href="#changing">Effect of changing blocks</a></li>
+            <li class="nav__item"><a href="#header">header section</a></li>
+            <li class="nav__item"><a href="#home">home section</a></li>
+            <li class="nav__item"><a href="#about">about section</a></li>
+            <li class="nav__item"><a href="#competence">competence section</a></li>
+            <li class="nav__item"><a href="#services">services section</a></li>
+            <li class="nav__item"><a href="#gallery">gallery section</a></li>
+            <li class="nav__item"><a href="#blog">blog section</a></li>
+            <li class="nav__item"><a href="#single">single section</a></li>
+            <li class="nav__item"><a href="#contact">contact section</a></li>
+        </nav>
+        <div class="main">
+            <!--introduction-->
+            <section class="section">
+                <article id="introduction">
+                    <h1>About template:</h1>
+                    <h2>Your Design – personal portfolio template</h2>
+                    <h3>Created: <span class="thin">04/04/2022</span></h3>
+                    <h3>Last Update: <span class="thin">04/04/2022</span></h3>
+                    <h3>Autor: <a href="https://themeforest.net/user/yurydem"><span class="thin">https://themeforest.net/user/yurydem</span></a></h3>
+                    <p>
+                        This is a modern, creative, clean, professional and attractive personal template. You can use this
+                        template for resumes, photos, freelancers, art, illustrations and many other things, which will help you
+                        demonstrate all your services and information about you and your work. The entirety of files and code was well organized and
+                        documented and you can quickly customize the template with ease.
+                    </p>
+                    <h2>
+                        Features
+                    </h2>
+                    <ul class="list">
+                        <li>HTML5 & CSS3 & jQuery</li>
+                        <li>Modern And Creative Design</li>
+                        <li>Fully Customizable</li>
+                        <li>Fully Responsive</li>
+                        <li>Blog </li>
+                        <li>Creative Menu</li>
+                        <li>RTL Support</li>
+                        <li>Dark & Light Versions</li>
+                        <li>5 Color Schemes</li>
+                        <li>6 Background Style</li>
+                        <li>Contact Form</li>
+                        <li>Blog Page</li>
+                        <li>Well documented</li>
+                        <li>Google Font</li>
+                        <li>Font Awesome Icons</li>
+                        <li>Google Maps</li>
+                        <li>Cross browser</li>
+                        <li>Regular Updates</li>
+                        <li>24/7 Support</li>
+                    </ul>
+                    <h2>
+                        Files Included:
+                    </h2>
+                    <ul class="list">
+                        <li>HTML Files</li>
+                        <li>SCSS, CSS Files</li>
+                        <li>JS Files</li>
+                        <li>Documentation in HTML</li>
+                    </ul>
+                </article>
+            </section>
+            <!--workspace-->
+            <section class="section">
+                <article id="workspace">
+                    <h1>Setting up the workspace</h1>
+                    <p>
+                        To use the scss features you need to install the <a href="https://prepros.io/downloads"> <span>Prepros</span></a>
+                        program (free). The program acts as a gulp build.
+                        Then the same folder with the template is opened in the code editor. In this case it is Visual
+                        Studio Code.
+                    </p>
+                    <video width="700" height="480" controls="controls" src="./video/Prepros.mp4" poster="./img/video.png"></video>
+                </article>
+            </section>
+            <!--folders-->
+            <section class="section">
+                <article id="folders">
+                    <h1>Files and folders:</h1>
+                    <p>
+                        This template used the <span>scss preprocessor</span>.
+                        The files in the <span>dist</span> folder can be used to correct the template. But you can also make
+                        changes from the <span>#source</span> folder. For this purpose it is necessary to use programs -
+                        assemblers. For this template we used the program <a href="https://prepros.io/downloads"> <span>Prepros</span></a> (free).
+                    </p>
+                    <p>
+                        Screenshots from the Visual Studio Code program. <br>
+                        All files have comments.
+                        The <span>dist/index.html</span> file is divided into sections with comments. <br>
+                        <div class="img_box">
+                            <img src="./img/index.png" alt="">
+                        </div>
+                        When using scss, all HTML sections are in separate HTML files.
+                        The assembly and sequence of files is
+                        shown in the file <span>#source/index.kit</span>.
+                        <div class="img_box">
+                            <img src="./img/img_3.png" alt="">
+                        </div>
+                        You can easily change the sequence here, which will show up in the original index.html file
+                    </p>
+                    <p>
+                        All scss files are assembled by the builder into a common <span>dist/css/style-dist.css</span> file.
+                        The scss files are
+                        named after different themes. The sequence is displayed in the file <span>#source/scss/main.scss</span>. All
+                        js files are
+                        grouped in the same way (#source/js/main.js)
+                        <div class="img_box">
+                            <img src="./img/img_main_scss.png" alt="">
+                        </div>
+                    </p>
+                    <p>
+                        The template does not use php or json files, because it is not a finished page, but only a template.
+                        It can be used, for example, as a wordpress template.
+                    </p>
+                </article>
+            </section>
+            <!--changing сlass-->
+            <section class="section">
+                            <article id="changing">
+                                <h1>Effect of changing blocks:</h1>
+                                1. In the attached folder "Animation-Bibliothek" you can see and select the desired class. <br>
+                                2. The file "animate.scss" is already present in the folder <span>#source/scss</span> <br>
+                                3. Deletion or addition of class animations of the corresponding sections in <span>#source/js/function.js</span>:
+                                <div class="img_box">
+                                    <img src="./img/class.png" alt="img">
+                                </div>
+                                Classes are replaced in a random order.
+                            </article>
+            </section>
+            <!--wheader-->
+            <section class="section">
+                <article id="header">
+                    <h1>How to make edits in the "Header" section</h1>
+                    <h2>Changes in the logo</h2>
+                    in the file <span>#source/html/header.html</span>:
+                    <div class="img_box">
+                        <img src="./img/logo.png" alt="img">
+                    </div>
+
+                    <div class="space"></div>
+                    <h2>Changes in the Color Palette</h2>
+                    in the file <span>#source/html/header.html</span>:
+                    <div class="img_box">
+                        <img src="./img/color.png" alt="img">
+                    </div>
+
+                    <div class="space"></div>
+                    <h2>Changes in the Menus</h2>
+                    in the file <span>#source/html/header.html</span>:
+                    <p>
+                        There are three menus on the site. <br>
+                        1. Big circular menu <br>
+                        2. Side drop-down menu <br>
+                        3. Menu  Indicator <br>
+                    </p>
+                    <p>
+                        All three menus are connected with eachother and change together. <br>
+                        The picture shows how to make changes in menu items. <br>
+                        <span>Important!!!</span>  Attributes <span>"name"</span>  must be the same in all three menus.
+                    </p>
+                    <div class="img_box">
+                        <img src="./img/headerMenu.png" alt="img">
+                    </div>
+                    <p>
+                        Names in the center of the circular menu (5) and block names (4) are changing <span>automatically</span>
+                        It all depends on the attribute "name".
+                    </p>
+                    <div class="img_box">
+                        <img src="./img/clueBlock_name.png" alt="img">
+                    </div>
+                    <p>
+                        When you open the site for the first time, in the middle of the menu will be written "home" <br>
+                        If you want to call it otherwise, intstead of "home" <br>
+                        you need to rename it in the file <span>#source/js/function.js</span>
+                    </p>
+                    <div class="img_box">
+                        <img src="./img/Clueblock.png" alt="img">
+                    </div>
+                    <div class="space"></div>
+                    <h2>Changes in the icons:</h2>
+                    <p>
+                        To do this, replace the name icons. <br>
+                        The names of other icons can be found in the file: <span>dist/css/icon-fonts-bold.css</span>. <br>
+                        There are other icon sets: (icon-fonts-light.css, iconsfonts.css). <br>
+                        Images of logos are generated from SVG files and translated to icon fonts.
+                        <br>
+                        How to do it:  <span><a href="https://www.youtube.com/watch?v=OUeloZPobuU">https://www.youtube.com/watch?v=OUeloZPobuU</a></span>
+                        <br>
+                        <span><a href="https://icomoon.io">https://icomoon.io</a></span>
+                    </p>
+                    <div class="img_box">
+                        <img src="./img/iconsMenu.png" alt="img">
+                    </div>
+
+                </article>
+            </section>
+            <!--home-->
+            <section class="section">
+                <article id="home">
+                    <h1>How to make edits in the "home" section</h1>
+                    <h2>Changing the title</h2>
+                    in the file <span>#source/html/home.html</span>:
+                    <div class="img_box">
+                        <img src="./img/Text_home.png" alt="">
+                    </div>
+                    All changes will be automatically written to the file <span>dist/index.html</span>
+
+                    <div class="space"></div>
+                    <h2>Changing the text</h2>
+                    1. In the file <span>#source/html/home.html</span>:
+                    <div class="img_box">
+                        <img src="./img/Text_home_creat.png" alt="">
+                    </div>
+                    2. In the file <span>#source/js/TypeWriter.js</span>:
+                    <div class="img_box">
+                        <img src="./img/tipeWriter.png" alt="">
+                    </div>
+
+                </article>
+            </section>
+            <!--about-->
+            <section class="section">
+                <article id="about">
+                    <h1>How to make edits in the "About" section</h1>
+                    <h2>Changing information in the MY PARTNERS block</h2>
+                    in the file <span>#source/html/about.html</span>:
+                    <div class="img_box">
+                        <img src="./img/icons.png" alt="img">
+                    </div>
+                    Logo images are generated from SVG files and translated to icon fonts.
+                    <br>
+                    How to do it:  <span><a href="https://www.youtube.com/watch?v=OUeloZPobuU">https://www.youtube.com/watch?v=OUeloZPobuU</a> </span>
+                    <br>
+                    <span><a href="https://icomoon.io">https://icomoon.io</a></span>
+                </article>
+            </section>
+            <!--competence-->
+            <section class="section">
+                <article id="competence">
+                    <h1>How to make edits in the "Competence" section</h1>
+                    In the file <span>#source/html/competence.html</span>:
+                    <div class="img_box">
+                        <img src="./img/competence.png" alt="img">
+                    </div>
+                </article>
+            </section>
+            <!--services-->
+            <section class="section">
+                <article id="services">
+                    <h1>How to make edits in the "Services" section</h1>
+                    In the file <span>#source/html/services.html</span><br>
+                    Replacing original pictures:
+                    <div class="img_box">
+                        <img src="./img/services_1.png" alt="img">
+                    </div>
+                    Replacing original text:
+                    <div class="img_box">
+                        <img src="./img/services_2.png" alt="img">
+                    </div>
+                    Replacing text in blocks of different topics and inserting appropriate images and text in the top field: <br>
+                    1. Replacing text in block (№1), <br>
+                    2. Replacing text in the top field and images (2,3):
+                    <div class="img_box">
+                        <img src="./img/services_3.png" alt="img">
+                    </div>
+
+                    In the file <span>#source/js/function.js</span><br>
+                    <p>
+                        Two arrays are created: <br>
+                        The first for images and the second for the text. It is important to comply with the sequence in accordance with the menu items. <br>
+                        Image file names need to be copied from existing files in the folder <span>dist/img/services</span>
+                    </p>
+                    <div class="img_box">
+                        <img src="./img/services_4.jpg" alt="img">
+                    </div>
+
+                </article>
+            </section>
+            <!--gallery-->
+            <section class="section">
+                <article id="gallery">
+                    <h1>How to make edits in the "Gallery" section</h1>
+                    In the file <span>#source/html/portfolio.html</span><br>
+                    <p>
+                        Menu items Changes: <br>
+                        All images of one category must have the same class prefix "filter".
+                        The name of the prefix must be the same as the name of the tag "data-filter" in the menu
+                    </p>
+                    <div class="img_box">
+                        <img src="./img/gallery.png" alt="img">
+                    </div>
+                </article>
+            </section>
+            <!--blog-->
+            <section class="section">
+                <article id="blog">
+                    <h1>How to make edits in the "Blog" section</h1>
+                    In the file <span>#source/html/blog.html</span><br>
+                    <p>
+                        Change indicators:
+                    </p>
+                    <div class="img_box">
+                        <img src="./img/blog.png" alt="img">
+                    </div>
+                    <p>
+                        <span>Attention!</span> The tag names <span>"data-value"</span> of the button with the class <span>"basicBox-more"</span> and
+                        the block with the <span>"overlay"</span> class in the file <span>#source/html/single.html</span><br>(which leads the click on the button) must match
+                    </p>
+                    <div class="img_box">
+                        <img src="./img/blog_2.png" alt="img">
+                    </div>
+                </article>
+            </section>
+            <!--single-->
+            <section class="section">
+                <article id="single">
+                    <h1>How to make edits in the "Single" section</h1>
+                    In the file <span>#source/html/single.html</span><br>
+                    <p>
+                        After clicking on the button "MORE" in the block "news__item_img-block" <br>
+                        (#source/html/blog.html)<br>
+                        <span>Attention!</span> The names of the Tag <span>"data-value"</span>  in the button with the class <span>"basicBox-more"</span> and
+                        the block with the <span>"overlay"</span> class in the  In the file <span>#source/html/single.html</span><br>(which leads the click on the button) must match
+                    </p>
+                    <div class="img_box">
+                        <img src="./img/single.png" alt="img">
+                    </div>
+                </article>
+            </section>
+            <!--contact-->
+            <section class="section">
+                <article id="contact">
+                    <h1>Contact section</h1>
+                    <p>
+                        The contact form only serves to display the appearance (when used for example in a wordpress
+                        template).
+                        The form doesn't do anything on its own and is powered by js code. The js code is in the file
+                        <span>#source/js/function.js</span>: lines <span>761</span> to <span>827</span>.
+                    </p>
+                    <p>
+                        How to connect Google Map to the site you can see here: <br>
+                        <span><a href="https://www.youtube.com/watch?v=9CY0V0JAgNU">https://www.youtube.com/watch?v=9CY0V0JAgNU</a></span>
+                    </p>
+                    <p>
+                        How to connect Google Map to the wordpress you can see here: <br>
+                        <span><a href="https://www.youtube.com/watch?v=bT0cZOQbztI">https://www.youtube.com/watch?v=bT0cZOQbztI</a></span>
+                    </p>
+                </article>
+            </section>
+
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
